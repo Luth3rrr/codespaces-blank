@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+  }
+  
+  #reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .review {
+    width: 30%;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .review h2 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .review p {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .review .rating {
+    font-style: italic;
+    color: #888;
+    font-size: 1.2em;
+  }
+  
+  #review-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #review-form label {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  #review-form input[type="text"],
+  #review-form textarea,
+  #review-form select {
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #review-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #review-form input[type="submit"]:hover {
+    background-color: #444;
+  }
+  .review {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #eee;
+  }
+  
+  .review h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .review p {
+    margin: 5px 0;
+    font-size: 1em;
+  }
+  
+  .rating {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
